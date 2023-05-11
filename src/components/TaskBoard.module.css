@@ -1,0 +1,36 @@
+.TaskBoard {
+    display: flex;
+    flex-direction: column;
+    width: 46rem;
+    min-height: 285px;
+    /* background-color: pink; */
+    margin-top: 64px;
+
+}
+
+.TaskBoard header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 0.875rem;
+    font-weight: 700;
+    /* background-color: green; */
+}
+
+.TaskBoard header div {
+    display: flex;
+}
+
+.TaskBoard header div span {
+    background: var(--gray-400);
+    border-radius: 999px;
+    padding: 2px 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 25px;
+    height: 19px;
+    font-size: 0.75rem
+}

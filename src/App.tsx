@@ -1,6 +1,5 @@
 import { Form } from './components/Form';
 import { Header } from './components/Header'
-import { TaskBoard } from './components/TasksBoard';
 import { EmptyTask } from './components/EmptyTasks';
 import { Info } from './components/Info';
 import { Task } from './components/Task';

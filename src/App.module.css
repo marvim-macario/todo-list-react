@@ -1,4 +1,20 @@
 .wrapper{
     display:flex;
-    justify-content:center
+    align-items:center;
+    flex-direction: column;
+}
+
+.TaskBoard {
+    display: flex;
+    flex-direction: column;
+    width: 46rem;
+    min-height: 285px;
+}
+
+.taskList{
+    display:flex;
+    flex-direction: column;
+}
+.taskList:first-of-type{
+    margin-top: 0.75rem;
 }
